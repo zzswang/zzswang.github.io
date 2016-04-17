@@ -42,11 +42,12 @@ echo Install apps
 brew cask install transmit
 brew cask install battle-net
 brew cask install google-chrome
-brew cask isntall google-drive
-brew cask isntall goagentx
+brew cask install google-drive
+brew cask install goagentx
 brew cask install shadowsocksx
-brew cask isntall spectacle
-brew cask isntall neteasemusic
+brew cask install spectacle
+brew cask install neteasemusic
+brew cask install youdao
 brew cask install baiducloud
 
 
