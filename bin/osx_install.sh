@@ -8,14 +8,27 @@ echo  '\n'
 # base
 echo Install Homebrew zsh and useful tools
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# init zsh
+brew install zsh
+chsh -s $(which zsh)
+zsh
+echo "#zsh help"
+echo "unalias run-help" | cat >> ~/.zshrc
+echo "autoload run-help" | cat >> ~/.zshrc
+echo "HELPDIR=/usr/local/share/zsh/help" | cat >> ~/.zshrc
+echo "#zsh help End"
+echo "[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh" | cat >> ~/.zshrc
+
+
+# tools
 brew tap homebrew/science
 brew install wget ffmpeg
 brew install p7zip
-brew install zsh
-brew install oh-my-zsh
 brew intall zsh-syntax-highlighting
 brew install tree
 brew install autojump
+brew install oh-my-zsh
 
 
 # Development
@@ -23,7 +36,7 @@ echo Install Dev Apps
 brew install node
 brew cask install atom  # editor
 brew cask install java
-brew cask install github
+brew cask install github-desktop
 brew cask install dockertoolbox
 docker-machine create --driver virtualbox docker
 docker-machine env docker
