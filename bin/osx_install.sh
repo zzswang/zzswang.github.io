@@ -12,7 +12,7 @@ brew tap homebrew/science
 brew install wget ffmpeg
 brew install p7zip
 brew install zsh
-brew install on-my-zsh
+brew install oh-my-zsh
 brew intall zsh-syntax-highlighting
 brew install tree
 brew install autojump
