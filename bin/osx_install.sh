@@ -10,7 +10,7 @@ echo Install Homebrew zsh and useful tools
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap homebrew/science
 brew install wget ffmpeg
-brew p7zip
+brew install p7zip
 brew install zsh
 brew install on-my-zsh
 brew intall zsh-syntax-highlighting
