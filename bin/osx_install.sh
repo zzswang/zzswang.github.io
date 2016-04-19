@@ -47,7 +47,6 @@ brew cask install goagentx
 brew cask install shadowsocksx
 brew cask install spectacle
 brew cask install neteasemusic
-brew cask install youdao
 brew cask install baiducloud
 
 
