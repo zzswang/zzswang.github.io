@@ -20,6 +20,8 @@ echo "HELPDIR=/usr/local/share/zsh/help" | cat >> ~/.zshrc
 echo "#zsh help End"
 echo "[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh" | cat >> ~/.zshrc
 
+## oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # tools
 brew tap homebrew/science
@@ -28,7 +30,6 @@ brew install p7zip
 brew intall zsh-syntax-highlighting
 brew install tree
 brew install autojump
-brew install oh-my-zsh
 
 
 # Development
