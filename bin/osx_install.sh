@@ -53,6 +53,7 @@ cnpm install -g yo
 
 # Apps and Games
 echo Install apps
+brew cask install scroll-reverser
 brew cask install transmit
 brew cask install battle-net
 brew cask install google-chrome
