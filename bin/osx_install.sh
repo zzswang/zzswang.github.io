@@ -27,7 +27,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 brew tap homebrew/science
 brew install wget ffmpeg
 brew install p7zip
-brew intall zsh-syntax-highlighting
+brew install zsh-syntax-highlighting
 brew install tree
 brew install autojump
 
